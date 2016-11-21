@@ -3,8 +3,6 @@ GO
 SET ANSI_NULLS ON
 GO
 
---Is this the 3rd time and is it a charm
-
 CREATE PROCEDURE [HumanResources].[uspUpdateEmployeeHireInfo]
     @BusinessEntityID [int], 
     @JobTitle [nvarchar](50), 
