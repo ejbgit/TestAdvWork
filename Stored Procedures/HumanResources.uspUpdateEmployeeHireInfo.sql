@@ -2,6 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
+-----here is my manual update to this sproc in the test DB under sources control saveing to my main branch on my desktop-----
 
 CREATE PROCEDURE [HumanResources].[uspUpdateEmployeeHireInfo]
     @BusinessEntityID [int], 
