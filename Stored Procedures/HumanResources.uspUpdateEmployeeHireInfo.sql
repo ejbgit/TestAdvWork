@@ -3,8 +3,6 @@ GO
 SET ANSI_NULLS ON
 GO
 
---My change that should go to my branch
-
 CREATE PROCEDURE [HumanResources].[uspUpdateEmployeeHireInfo]
     @BusinessEntityID [int], 
     @JobTitle [nvarchar](50), 
