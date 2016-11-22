@@ -3,6 +3,8 @@ GO
 SET ANSI_NULLS ON
 GO
 
+-- Monday 11/21/16 2nd sproc modification test
+
 CREATE PROCEDURE [HumanResources].[uspUpdateEmployeeLogin]
     @BusinessEntityID [int], 
     @OrganizationNode [hierarchyid],

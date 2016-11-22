@@ -3,6 +3,8 @@ GO
 SET ANSI_NULLS ON
 GO
 
+-- Monday 11/21/16 new change test
+
 CREATE PROCEDURE [HumanResources].[uspUpdateEmployeeHireInfo]
     @BusinessEntityID [int], 
     @JobTitle [nvarchar](50), 
